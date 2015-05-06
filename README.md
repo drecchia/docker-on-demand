@@ -17,7 +17,7 @@ Run listener on host
 
 Start docker on demand using variables do define target container and target port.
 
-        docker run -p 8081:8081 -e LISTEN_PORT=8081 -e CLIENT_REFRESH_SECS=60 -e HOST_COMMAND_ON_START="docker start 429c28e5e606" -e HOST_COMMAND_ON_STOP="docker stop 429c28e5e606" -v /tmp/pipe:/pipe -d -e CONTAINER_LIFETIME=5m -it drecchia/docker-on-demand:1.0.0
+        docker run -p 8081:8081 -e LISTEN_PORT=8081 -e CLIENT_REFRESH_SECS=60 -e HOST_COMMAND_ON_START="docker start 429c28e5e606" -e HOST_COMMAND_ON_STOP="docker stop 429c28e5e606" -v /tmp/pipe-dod:/pipe -d -e CONTAINER_LIFETIME=5m -it drecchia/docker-on-demand:1.0.0
 
 Now when a http request is made at port 8081:
 
