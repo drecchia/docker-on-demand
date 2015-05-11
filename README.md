@@ -27,3 +27,5 @@ Now when a http request is made at port 8081:
     4. on timeout host-listener will run $HOST_COMMAND_ON_STOP
     5. whe d.o.d. container will be started again.
 
+[![Deploy to Tutum](https://s.tutum.co/deploy-to-tutum.png)](https://dashboard.tutum.co/stack/deploy/)
+
