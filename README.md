@@ -1,4 +1,5 @@
-# Docker-on-demand
+# Docker-on-demand - [![Deploy to Tutum](https://s.tutum.co/deploy-to-tutum.png)](https://dashboard.tutum.co/stack/deploy/)
+
 Docker container that listen for connection on http port and run command on host. It can be used to start or stop a parent container ( after a given time ).
 
 Scene
@@ -27,5 +28,4 @@ Now when a http request is made at port 8081:
     4. on timeout host-listener will run $HOST_COMMAND_ON_STOP
     5. whe d.o.d. container will be started again.
 
-[![Deploy to Tutum](https://s.tutum.co/deploy-to-tutum.png)](https://dashboard.tutum.co/stack/deploy/)
 
